@@ -68,3 +68,6 @@ kaggle-comp/
 ---
 
 *Dashboard e knowledge base per AI Data Scientists*
+
+---
+Last updated: December 2025
