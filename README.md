@@ -1,73 +1,60 @@
-# Kaggle Knowledge Base
+<h1 align="center">Kaggle Comp</h1>
+<h3 align="center">Kaggle competition notebooks and submissions for data science challenges</h3>
 
-Knowledge base e dashboard per partecipare a competizioni Kaggle. Account: [fcwebdev](https://www.kaggle.com/fcwebdev)
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=flat-square" alt="Python" />
+</p>
 
-## Panoramica
+<p align="center">
+  :gb: <a href="#english">English</a> | :it: <a href="#italiano">Italiano</a>
+</p>
 
-Questo repository contiene:
-- Documentazione su API, GPU/TPU, notebook Kaggle
-- Guide per competizioni e workflow
-- Dashboard Streamlit per monitorare le competizioni
+---
 
-## Competizioni
+<a name="english"></a>
+## :gb: English
 
-| Competizione | Tipo | Risultato |
-|-------------|------|-----------|
-| Insurance Regression (S4E12) | Playground | 430/2390 |
-| Gemini 3 Hackathon | Hackathon | In corso |
+### Overview
 
-## Quick Start
+Kaggle competition notebooks and submissions for data science challenges
+
+### Quick Start
 
 ```bash
-# Installa dipendenze
-pip install -r requirements.txt
-
-# Avvia dashboard
-streamlit run app.py
+git clone https://github.com/fracabu/kaggle-comp.git
+cd kaggle-comp
 ```
-
-## Struttura Repository
-
-```
-kaggle-comp/
-├── app.py                    # Dashboard Streamlit
-├── requirements.txt          # Dipendenze Python
-├── GUIDA-TEAM-AI-KAGGLE.md   # Guida principale
-├── profilo-kaggle.md         # Info profilo
-├── competizioni-attive.md    # Competizioni con premi
-├── kaggle-learn-corsi.md     # Corsi gratuiti
-├── kaggle-models.md          # Modelli pre-trainati
-└── docs/
-    ├── api.md                # Kaggle API reference
-    ├── gpu-usage.md          # Ottimizzazione GPU (Tesla P100)
-    ├── tpu.md                # Guida TPU (v3-8)
-    └── notebooks.md          # Ambiente notebook
-```
-
-## Risorse Compute
-
-| Risorsa | Quota | Best For |
-|---------|-------|----------|
-| GPU (Tesla P100) | 30 hrs/week | Deep Learning, CNN, Transformers |
-| TPU (v3-8) | 20 hrs/week | Large batch training, TensorFlow |
-
-## Workflow Competizioni
-
-1. **EDA** (CPU) - Esplorazione dati
-2. **Feature Engineering** (CPU) - Preprocessing
-3. **Baseline** (CPU) - Prima submission veloce
-4. **Training** (GPU/TPU) - Modelli avanzati
-5. **Ensemble** - Combinazione e submission finale
-
-## Links
-
-- [Kaggle Profile](https://www.kaggle.com/fcwebdev)
-- [GitHub](https://github.com/fracabu)
-- [LinkedIn](https://www.linkedin.com/in/francesco-~-capurso-5801031a9/)
 
 ---
 
-*Dashboard e knowledge base per AI Data Scientists*
+<a name="italiano"></a>
+## :it: Italiano
+
+### Panoramica
+
+Kaggle competition notebooks and submissions for data science challenges
+
+### Avvio Rapido
+
+```bash
+git clone https://github.com/fracabu/kaggle-comp.git
+cd kaggle-comp
+```
 
 ---
-Last updated: December 2025
+
+## Tech Stack
+
+Python
+
+## License
+
+MIT
+
+---
+
+<p align="center">
+  <a href="https://github.com/fracabu">
+    <img src="https://img.shields.io/badge/Made_by-fracabu-8B5CF6?style=flat-square" alt="Made by fracabu" />
+  </a>
+</p>
